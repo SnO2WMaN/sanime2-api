@@ -1,4 +1,4 @@
-# sanime2
+# sanime2 API
 
 Original version is [rinsuki/sanime][rinsuki/sanime].
 
@@ -12,3 +12,9 @@ Original version is [rinsuki/sanime][rinsuki/sanime].
 
 [rinsuki/sanime]: https://github.com/rinsuki/sanime
 [rinsuki/sanime/license]: https://github.com/rinsuki/sanime/blob/master/LICENSE
+
+## Example
+
+```
+https://sanime2-api.vercel.app/api/shows?users=anilist%3Asno2wman
+```
