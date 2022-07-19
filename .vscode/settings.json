@@ -1,6 +1,11 @@
 {
   "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
   "typescript.tsdk": "node_modules/typescript/lib",
+  "files.exclude": {
+    "**/.direnv": true,
+    "**/.vercel": true,
+    "**/node_modules": true
+  },
   "customLocalFormatters.formatters": [
     {
       "command": "treefmt -q --stdin ${file}",
