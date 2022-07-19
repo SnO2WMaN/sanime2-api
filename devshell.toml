@@ -1,0 +1,11 @@
+[devshell]
+packages = [
+  "alejandra",
+  "dprint",
+  "nodejs-16_x",
+  "nodePackages.pnpm",
+]
+
+[[commands]]
+package = "treefmt"
+category = "formatter"
